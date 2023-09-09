@@ -1,0 +1,13 @@
+CREATE TABLE texto (
+texto_arquivo VARCHAR(255),
+nome_arquivo VARCHAR(255),
+usuario VARCHAR(255)
+);
+
+CREATE TABLE audio (
+nome_gravacao VARCHAR(255),
+segundos int(10),
+tamanho_gravacao int(10)
+usuario VARCHAR(255)
+);
+
